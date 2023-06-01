@@ -1,0 +1,83 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+#root{
+    max-width: 2560px;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#h1{
+    font-size: 3em;
+    font-weight: bolder;
+    width: 9em;
+    color: rgb(23, 3, 41);
+    letter-spacing: 1px;
+}
+#divvv{
+    min-height: 30em;
+}
+#svg{
+    width: 44.5em;
+}
+#p-id{
+    color: rgb(133, 133, 133);
+    margin-top: 2em;
+    font-weight: 600;
+}
+#lowerMiddle-h1{
+    font-size: x-large;
+}
+#bg-div{
+    background-color: rgb(25, 7, 43);
+}
+#flex-div > div{
+    background-color: white;
+    list-style: none;
+    border-radius: 10px;
+    height: 15em;
+    padding-left: 1em;
+}
+#div p,img{
+    cursor: pointer;
+}
+
+#div p:hover{
+    transition: all 0.4s;
+    opacity: 0.4;
+}
+#flex-div h3{
+    position: relative;
+    top: -1em;
+    font-size: x-large;
+}
+.footer-h1{
+    margin-bottom: 0.9em;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#upperfooter{
+    background-color: rgb(25, 7, 43);
+    color: white;
+}
+input{
+    outline: none;
+}
+#flex-div li{
+    position: relative;
+    top: -2em;
+    left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4em;
+    height:4em;
+    border-radius: 100%;
+    background-color: rgb(25, 3, 46);
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
